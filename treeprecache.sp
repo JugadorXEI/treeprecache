@@ -29,7 +29,7 @@ public void OnPluginStart()
 	g_cSequoiaMap = CreateConVar("sm_mvmtree_sequoianame", "mvm_sequoia",
 	"Name of the map where we want to precache a tree on.", FCVAR_PROTECTED);
 	
-	g_cMissionName = CreateConVar("sm_mvmtree_missionname", "adv_extended_deadline",
+	g_cMissionName = CreateConVar("sm_mvmtree_missionname", "int_extended_deadline",
 	"Name of the mission where we want to precache a mission on.", FCVAR_PROTECTED);
 	
 	g_bLogTree = CreateConVar("sm_mvmtree_logtree", "0",
